@@ -37,7 +37,12 @@ dependencies:
   uuid: '>=3.0.6'
   synchronized: ^3.0.0+3
   protobuf: ^3.0.0
-  flutter_webrtc: ^0.12.3
+  # flutter_webrtc: ^0.12.3
+  flutter_webrtc:
+    git: 
+      url: https://github.com/seawaya0012/flutter-webrtc
+      path: '.'
+      ref: 'main'
   device_info_plus: ^11.1.1
   js: '>=0.6.4'
   platform_detect: ^2.0.7
